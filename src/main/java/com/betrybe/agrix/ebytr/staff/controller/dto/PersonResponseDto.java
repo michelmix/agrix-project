@@ -12,6 +12,7 @@ public record PersonResponseDto(Long id, String username, Role role) {
   /**
    * fromEntity: resposta para o usuário ao registrar uma nova pessoa no banco de dados.
    */
+
   public static PersonResponseDto fromEntity(Person person) {
     return new PersonResponseDto(
         person.getId(),

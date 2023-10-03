@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 /**
  * Person JPA repository.
  */
+
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Long> {
 

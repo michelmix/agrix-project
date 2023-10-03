@@ -3,6 +3,7 @@ package com.betrybe.agrix.ebytr.staff.security;
 /**
  * Enum representing a Role.
  */
+
 public enum Role {
   ADMIN("ROLE_ADMIN"),
   MANAGER("ROLE_MANAGER"),
