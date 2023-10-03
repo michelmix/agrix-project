@@ -68,10 +68,4 @@ public class FertilizerController {
     Fertilizer fertilizer = fertilizerService.findById(id);
     return FertilizerDto.fromEntity(fertilizer);
   }
-
-
-
-
-
-
 }
