@@ -1,5 +1,6 @@
 package com.betrybe.agrix.ebytr.staff.controller;
 
+import com.betrybe.agrix.ebytr.staff.controller.dto.AuthenticationDto;
 import com.betrybe.agrix.ebytr.staff.controller.dto.TokenDto;
 import com.betrybe.agrix.ebytr.staff.entity.Person;
 import com.betrybe.agrix.ebytr.staff.service.PersonService;
@@ -14,7 +15,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.betrybe.agrix.ebytr.staff.controller.dto.AuthenticationDto;
+
+/**
+ * AuthenticationController.
+ */
+
 
 @RestController
 @RequestMapping("/auth")
@@ -26,6 +31,10 @@ public class AuthenticationController {
 
   private final TokenService tokenService;
 
+  /**
+   * AuthenticationController Constructor.
+   */
+
   @Autowired
   public AuthenticationController(AuthenticationManager authenticationManager,
       PersonService personService, TokenService tokenService) {
@@ -34,8 +43,12 @@ public class AuthenticationController {
     this.tokenService = tokenService;
   }
 
+  /**
+   * Loging Route with security.
+   */
+
   @PostMapping("/login")
-  public ResponseEntity<TokenDto> login(@RequestBody AuthenticationDto authenticationDto){
+  public ResponseEntity<TokenDto> login(@RequestBody AuthenticationDto authenticationDto) {
 
     UsernamePasswordAuthenticationToken usernamePassword =
         new UsernamePasswordAuthenticationToken(
