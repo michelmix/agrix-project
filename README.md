@@ -6,23 +6,25 @@
 O Agrix é uma aplicação back-end web desenvolvido em Java utilizando Spring, que permite a gestão e o monitoramento de fazendas. 
 Este projeto implementa uma API RESTful e aplica diversos conceitos e tecnologias do ecossistema Spring para criar uma API robusta e segura.
 
-
+## Modelo conceitual
+<img src="https://github.com/michelmix/agrix-project/blob/main/images/agrix-tabelas-fase-b.png" width=600>
 
 ## Funcionalidades
 
-- Gestão de fazendas: Cadastre, atualize e remova informações sobre fazendas.
-- Monitoramento: Acompanhe dados importantes sobre as fazendas.
+- Gestão de fazendas: Cadastra, atualize e remove informações sobre fazendas.
+- Monitoramento: Acompanha dados importantes sobre as fazendas.
 - Autenticação: Utiliza o Spring Security para garantir que apenas usuários autorizados tenham acesso ao sistema.
-- Autorização: Defina diferentes níveis de autorização para garantir que cada rota atenda a regras específicas de segurança.
+- Autorização: Define diferentes níveis de autorização para garantir que cada rota atenda a regras específicas de segurança.
 
 ## Tecnologias Utilizadas
 
 - **Spring Boot**: Facilita a criação de aplicações Java autônomas e com configurações mínimas.
 - **Spring Web**: Crie rotas da API de forma simples e eficaz.
-- **Spring Data JPA**: Implemente entidades e repositórios para a persistência em banco de dados de forma eficiente.
-- **Spring Security**: Adicione autenticação ao projeto e defina regras de autorização.
-- **Docker**: Configure a aplicação para execução em containers Docker.
-- **JUnit**: Desenvolva testes unitários para garantir a qualidade do código.
+- **Spring Data JPA/Hibernate**: Implementa entidades e repositórios para a persistência em banco de dados de forma eficiente.
+- **Spring Security**: Adiciona autenticação ao projeto e defina regras de autorização.
+- **Docker**: Configura a aplicação para execução em containers Docker.
+- **JUnit**: Desenvolve testes unitários para garantir a qualidade do código.
+- **Maven**: Gerenciamento de dependências
 
 ## Iniciando
 
@@ -61,3 +63,9 @@ Certifique-se de que o projeto esteja em execução e execute os testes unitári
 ---
 
 **Nota:** Este é um projeto fictício criado apenas para fins de demonstração e aprendizado. Não se destina a ser usado em produção, mas sim como um exemplo de como aplicar tecnologias Spring em um projeto Java.
+
+# Autor
+
+Michel Arantes Barbosa
+
+https://www.linkedin.com/in/michel-barbosa-dev/
