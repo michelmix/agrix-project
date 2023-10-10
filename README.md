@@ -1,7 +1,12 @@
 # Agrix - Sistema de Gestão e Monitoramento de Fazendas
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/michelmix/project-agrix/blob/main/LICENSE) 
 
-O Agrix é uma aplicação back-end desenvolvido em Java utilizando Spring, que permite a gestão e o monitoramento de fazendas. 
+# Sobre o projeto
+
+O Agrix é uma aplicação back-end web desenvolvido em Java utilizando Spring, que permite a gestão e o monitoramento de fazendas. 
 Este projeto implementa uma API RESTful e aplica diversos conceitos e tecnologias do ecossistema Spring para criar uma API robusta e segura.
+
+
 
 ## Funcionalidades
 
