@@ -35,7 +35,7 @@ Certifique-se de ter o Docker instalado para simplificar a execução do Agrix.
 1. Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/agrix.git
+git clone git@github.com:michelmix/agrix-project.git
 cd agrix
 ```
 
